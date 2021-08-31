@@ -1,0 +1,52 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f5cd91;
+  }
+  
+  a {
+    color: #326cd8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #335c67;
+    text-decoration: none;
+  }
+  
+  .jumbotron {
+    background-color: #920606;
+  }
+  
+  .main-section {
+    flex-wrap: wrap;
+    margin: 2em auto;
+  }
+  
+  .employee-card {
+    margin: 1em;
+    max-width: 300px;
+    width: 100%;
+    color: rgb(17, 17, 17);
+    display: flex;
+    border: none;
+  }
+  .manager-card {
+    background-color: #f84d4d;
+  }
+  
+  .engineer-card {
+    background-color: #f84d4d;
+  }
+  
+  .intern-card {
+    background-color: #f84d4d;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  

@@ -83,7 +83,7 @@ function initApp() {
           type: "list",
           name: "memberChoice",
           message: "Plese Choose If You Want to Add More or Exit the Application?",
-          choices: ["1) Engineer", "2) Intern", "3) Exit the Application and Generate the Team Profile"],
+          choices: ["Engineer", "Intern", "Exit the Application and Generate the Team Profile"],
         },
       ])
       .then((userChoice) => {
@@ -234,3 +234,4 @@ function initApp() {
 }
 
 initApp();
+
